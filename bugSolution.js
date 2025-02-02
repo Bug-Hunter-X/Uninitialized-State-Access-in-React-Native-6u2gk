@@ -1,0 +1,1 @@
+The corrected version uses optional chaining to safely access the state variable.  If the state is not yet initialized (e.g., during initial render before the useState hook updates), it gracefully handles it without throwing an error.  Additionally, it makes sure that the variable is properly initialised before accessing it.
